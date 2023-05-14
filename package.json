@@ -1,8 +1,8 @@
 {
-  "name": "shawn40bday",
+  "name": "shawn-40-birthday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jsohndata.github.io/shawn40bday",
+  "homepage": "https://jsohndata.github.io/shawn-40-birthday",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
