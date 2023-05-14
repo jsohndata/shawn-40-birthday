@@ -9,22 +9,12 @@ export default function Panel ( {data: {id, cover, large}} ) {
 
   return (
     <Col xs={6} sm={4} md={3} lg={2} className="m-0 m-xl-1 p-0 column">
-      <Image 
+      <a href={large} target="_blank"><Image 
         src={`${cover}`} 
         alt={id}        
         fluid
-        className="button-effect"
-        onClick={toggleShow} />
-      <Modal 
-        size="md"
-        show={show} 
-        onHide={toggleShow} 
-        className="backdrop-effect">
-          <Image 
-            src={`${large}`}             
-            alt={id}
-            fluid />
-      </Modal>
+        className="button-effect"/></a>
+      
     </Col>
   )
 }
